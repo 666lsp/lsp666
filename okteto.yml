@@ -5,3 +5,5 @@ build:
     context: frontend
     dockerfile: Dockerfile
     target: dev
+deploy:
+  - kubectl apply -f Dockerfile
